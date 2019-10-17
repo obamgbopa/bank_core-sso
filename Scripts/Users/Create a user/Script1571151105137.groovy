@@ -54,7 +54,7 @@ WebUI.verifyOptionPresentByLabel(findTestObject('user_page/Page_icon-app/li_USER
 
 WebUI.waitForElementClickable(findTestObject('user_page/Page_icon-app/li_USER'), 5)
 
-not_run: WebUI.selectOptionByIndex(findTestObject('user_page/Page_icon-app/li_USER'), 1)
+WebUI.selectOptionByIndex(findTestObject('user_page/Page_icon-app/li_USER'), 1)
 
 WebUI.click(findTestObject('user_page/Page_icon-app/li_USER'))
 
